@@ -1,26 +1,78 @@
 * {
   box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: Georgia,sans-serif;
 }
 
 h1 {    
+  padding: 20px;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 body {
-}
-
-p {
-  padding: 10px;
-  margin: 0;
-}
-
-.innersection  {
-  border: 1px solid black;    
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .section {
   border: none;
   padding: 10px;
+}
+
+.innersection  {
+  border: 1px solid black;
+  position: relative;
+  background-color: gray;    
+  height: 200px;
+  overflow: auto;
+}
+
+p {
+  padding: 10px;
+  padding-top: 45px;
+  margin: 0;
+}
+
+#chicken{
+  width: 150px;
+  text-align: center;
+  right: 0px;
+  top: 0px;
+  position: absolute;
+  background-color: pink;
+  border: 1px solid black;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 125%;
+}
+
+#beef{
+  width: 150px;
+  text-align: center;
+  right: 0px;
+  top: 0px;
+  position: absolute;
+  background-color: yellow;
+  border: 1px solid black;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 125%;
+}
+
+#sushi{
+  width: 150px;
+  text-align: center;  
+  right: 0px;
+  top: 0px;
+  position: absolute;
+  background-color: maroon;
+  border: 1px solid black;
+  padding: 5px;
+  color: white; 
+  font-weight: bold;
+  font-size: 125%;
 }
 
 /********** Large devices only **********/
